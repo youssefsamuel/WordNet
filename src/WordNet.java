@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class WordNet {
-    // private ArrayList<String> sunsetList;
     private final Map<String, List<Integer>> nouns; // Used to map each word net noun to the synsets it is associated to.
     private final Map<Integer, String> synsets; // Used to map each sunset id to the synset itself.
     private int numSynsets;
